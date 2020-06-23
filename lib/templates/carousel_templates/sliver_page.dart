@@ -29,7 +29,7 @@ class _HomePageSliverPageState extends State<HomePageSliverPage> {
             maxCrossAxisExtent: 200.0,
             mainAxisSpacing: 30.0,
             crossAxisSpacing: 20.0,
-            childAspectRatio: 3 / 4,
+            childAspectRatio: 1 / 2,
           ),
           delegate: SliverChildBuilderDelegate(
             (BuildContext context, int index) {
